@@ -1,4 +1,4 @@
-* {border:1px solid red}
+/* * {border:1px solid red} */
 html, body {
     display:flex;
     flex-direction: column;
@@ -7,60 +7,42 @@ html, body {
     margin: 0;
 }
 
-.hero, .header {
+.header, .footer {
     background-color: #1F2937;
-    font-weight:900;
+}
+
+.hero .title {
     font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
-    flex: 1;
 }
 
-.header, .hero, .reminder {
-    padding: 0 150px 0 150px;
-}
-
-.header-logo {
-    align-self: flex-start;
-    margin-top: 0;
-}
-
-
-
-.hero .subtext {
+.hero .subtext, .header-links {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.information {
-    color: #1F2937;
-    font-size: 36px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.information .infobox {
-    font-size: 18px;
-    flex: 1;
+button, .call-to-action {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .quote {
     background-color: #E5E7EB;
-    flex: 1;
 }
 
 .quote p {
+    font-size: 36px;
     font-style: italic;
-    margin: 0;
-}
-
-.footer {
-    text-align: center;
-}
-
-button {
-    background-color: #3882F6;
-    border-radius: 25px;
-    border: 0;
+    color: #1F2937;
 }
